@@ -3,7 +3,7 @@ import { CanActivate, ActivatedRouteSnapshot, RouterStateSnapshot, UrlTree } fro
 import { Observable } from 'rxjs';
 import { ToastrService } from 'ngx-toastr';
 import { map } from 'rxjs/operators';
-import { AccountService } from 'src/_services/account.service';
+import { AccountService } from 'src/app/_services/account.service';
 
 @Injectable({
   providedIn: 'root'

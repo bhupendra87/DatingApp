@@ -3,7 +3,7 @@ import { ActivatedRoute } from '@angular/router';
 import { NgxGalleryAnimation, NgxGalleryImage, NgxGalleryOptions } from '@kolkov/ngx-gallery';
 import { debug } from 'console';
 import { Member } from 'src/app/_models/member';
-import { MembersService } from 'src/_services/members.service';
+import { MembersService } from 'src/app/_services/members.service';
 
 @Component({
   selector: 'app-member-detail',
